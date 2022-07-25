@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "mfadeletefile" {
+resource "aws_s3_bucket" "deletefile2" {
   bucket = "mfadeletefile"
   acl    = "private"
   versioning {
