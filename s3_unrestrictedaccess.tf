@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "unrestricted" {
+resource "aws_s3_bucket" "delete1" {
   bucket = "examplebuckettftest"
   acl    = "public-read-write"
   versioning {
